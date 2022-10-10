@@ -27,7 +27,7 @@ Type in your answers to the questions.
 Can you see how your answers are used?
 </div>
 <div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/embed/viewer/python-emoji-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 </div>

@@ -11,7 +11,7 @@ Make your program say Hello world.
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/python/python-hello-starter){:target="_blank"}. The code editor will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/python/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
 ![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter_project.png)
 
@@ -42,10 +42,9 @@ Type the code to `print()` Hello to the screen.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 12
+line_number_start: 16
+line_highlights: 17
 ---
-
 # Put code to run under here    
 print('Hello')
 
@@ -125,8 +124,8 @@ This will `print()` the string (text) `Hello` and the 'world' variable (three wo
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 12
+line_number_start: 16
+line_highlights: 17
 ---
 
 # Put code to run under here    
@@ -168,10 +167,9 @@ This example is missing the comma `,`. It's small but very important!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
-line_highlights: 13
+line_number_start: 17
+line_highlights: 18
 ---
-
 print('Hello', world)    
 print('Welcome to', python) 
 

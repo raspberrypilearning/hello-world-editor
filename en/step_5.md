@@ -19,8 +19,10 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 ---
 language: python
 filename: main.py
+line_number_start: 29
+line_highlights: 30-32
 ---
-
+roll_dice() # Call the roll dice function
 print('I ❤️ ...')   
 print('... makes me 😃')   
 print('I\'d like to make ... with', python)   
@@ -48,5 +50,3 @@ What message would you send to a friend to cheer them up? Which emoji would you 
 [[[choose-an-emoji]]]
 
 --- /task ---
-
---- save ---
