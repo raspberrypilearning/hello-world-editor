@@ -1,4 +1,4 @@
-## Say hello
+## Say hello 🌍🌎🌏
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -23,7 +23,7 @@ Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>.
 
 --- task ---
 
-Find the `# Put code to run below here` comment.
+**Find:** the `# Put code to run below here` comment.
 
 Click below that line. 
 
@@ -91,27 +91,35 @@ The comma `,` is next to the <kbd>M</kbd>.
 A <span style="color: #0faeb0">**variable**</span> is used to store values that you want to use later in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 </p>
 
+--- task ---
+
+**Find:** the comment `# Emoji variables to use in your project`.
+
 We have included some variables that store emojis.
 
 --- code ---
 ---
 language: python
 filename: main.py
-line_numbers: false
+line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+
 # Emoji variables to use in your project
 world = '🌍🌎🌏'
 python = '🐍⌨️'
 sums = '✖️➗➖➕'
+
 --- /code ---
+
+--- /task ---
 
 --- task ---
 
-**Add** a comma `,` and the variable name for `world` into your `print('Hello')` line of code. 
+**Add** a comma `,` and the variable name `world` into your `print('Hello')` line of code. 
 
-This will `print()` the string[^1] (text) `Hello` and the three world emojis (🌍🌎🌏) that are stored in the variable `world`.
+This will `print()` the string (text) `Hello` and the 'world' variable (three world emojis 🌍🌎🌏).
 
 --- code ---
 ---
@@ -170,7 +178,7 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Tip:** In the code above, the line you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Tip:** The line you need to type is highlighted above in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
 
 --- /task ---
 
