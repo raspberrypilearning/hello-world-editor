@@ -1,3 +1,23 @@
+
+The `import` lines tell Python that you are going to use code you didn't write.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-2
+---
+
+from datetime import *
+from random import randint
+
+--- /code ---
+
+
+
+
 ## Sums and dates
 
 <div style="display: flex; flex-wrap: wrap">
@@ -6,7 +26,7 @@ Python is great at working with numbers and dates.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
