@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make your program say 'Hello 🌍🌎🌏'.
+Make your program say Hello world.
 </div>
 <div>
 ![The text output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
@@ -11,7 +11,7 @@ Make your program say 'Hello 🌍🌎🌏'.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/python/python-hello-starter){:target="_blank"}. The code editor will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/python/python-hello-starter){:target="_blank"}. The code editor will open in another browser tab.
 
 ![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter_project.png)
 
@@ -108,8 +108,7 @@ line_highlights:
 
 # Emoji variables to use in your project
 world = '🌍🌎🌏'
-python = '🐍⌨️'
-sums = '✖️➗➖➕'
+python = 'Python 🐍'
 
 --- /code ---
 

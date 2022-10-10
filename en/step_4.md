@@ -17,7 +17,7 @@ You can **define** a new **function** to group code together so that you can nam
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `# Put function definitions under here`.
 
 Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 

@@ -1,28 +1,8 @@
-
-The `import` lines tell Python that you are going to use code you didn't write.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 1-2
----
-
-from datetime import *
-from random import randint
-
---- /code ---
-
-
-
-
-## Sums and dates
+## Calculations and dates
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Get Python to do a calculation for you and also get the current time and date. 
 </div>
 <div>
 
@@ -31,7 +11,7 @@ Python is great at working with numbers and dates.
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+In Python you can use operators to do calculations:
 
 | + | add |   
 | - | subtract |   
@@ -41,7 +21,7 @@ In Python you can use maths operators to do sums:
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Add another two `print()` lines to your code including a calculation for Python to work out:
 
 --- code ---
 ---
@@ -54,52 +34,62 @@ line_highlights: 14-15
 
 print('Hello', world)   
 print('Welcome to', python)   
-print(python, 'is very good at', sums)   
-print(230 * 5782 ** 2 / 23781)   
+print(python, 'is very good at maths!')   
+print(230 * 5782 ** 2 / 23781) # Print the result of the sum    
 
 --- /code ---
+
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Test:** Run your code. Did Python calculate the answer correctly? Only joking 😆! Python is great at calculations so you don't need to work it out.
+
+**Debug:**
+
+--- collapse ---
+---
+title: I have a syntax error
+---
+
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+
+--- /collapse ---
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 100 trillion digits. That answer is so long that it would take hundreds of thousands of years just to say it! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
-
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
+Try changing the code so that Python has to do an even more difficult calculation! Can you crash the editor?
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and get Python to calculate your sum.
+**Test:** Run your code and see Python answer your calculation.
 
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+**Debug:** 
 
---- /task ---
+--- collapse ---
+---
+title: I have a syntax error
+---
 
---- task ---
+Make sure your calculation has round brackets around it `(2 * 45)`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area. 
-
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode. 
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+--- /collapse ---
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+The line `from datetime import datetime` at the top of your code imports a library with helpful functions for getting the current date and time.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
@@ -107,9 +97,29 @@ One of the great things about Python is all the <span style="color: #0faeb0">**l
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+**Find:** The `import` lines at the top of your code. They tell Python that you are going to use code you didn't write.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-2
+---
+
+from datetime import datetime
+from random import randint
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Add another line to your code to `print` some more text and the emojis for `calendar` and `clock`.
+
+Get the current date and time by using `datetime.now()`.
 
 --- code ---
 ---
@@ -120,13 +130,15 @@ line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji    
+print(python, 'is very good at maths!')     
+print(230 * 5782 ** 2 / 23781) # Print the result of the sum     
+print('The', 📅, 🕒, 'is', datetime.now()) # Print with emojis    
  
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Tip:** Find the comment `# Emojis to copy and paste into your code` and copy the emojis you want to use then paste them into your code. 
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
@@ -137,5 +149,3 @@ print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
 **Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
 --- /task ---
-
---- save ---
