@@ -1,0 +1,95 @@
+Hello
+
+Welcome to ...
+
+...is very good at ...
+
+The ...is
+
+...can make a ...
+
+You rolled a ...
+
+How many sides?
+
+That’s a D ...
+
+I <3 ...
+
+...makes me ...
+
+I’d like to make ...with...
+
+awesome
+
+I can code
+
+two_dice
+
+First number:
+
+Second number:
+
+hobbies
+
+hobby
+
+What do you like?
+
+That sounds ...
+
+You could make a ...project about ...
+
+roll_dice
+
+roll
+
+now
+
+world 
+
+sums
+
+calendar
+
+clock 
+
+projects 
+
+fun 
+
+dice 
+
+unicorn 
+
+space 
+
+happy 
+
+silly 
+
+heart 
+
+games 
+
+books 
+
+sports 
+
+green 
+
+nature 
+
+fire 
+
+sparkles 
+
+plead 
+
+hundred 
+
+star 
+
+yellow_heart 
+
+rainbow
