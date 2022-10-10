@@ -17,7 +17,7 @@ You can **define** a new **function** to group code together so that you can nam
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `# Put function definitions under here`.
+Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `# Function definitions`.
 
 Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
@@ -30,10 +30,10 @@ line_number_start: 7
 line_highlights: 9-12
 ---
 
-#Put function definitions under here
+# Function definitions
 
-def roll_dice(): #Don't forget the colon at the end of this line   
-  print(python, 'can make a', dice)   
+def roll_dice(): # Don't forget the colon at the end of this line   
+  print(python, 'can make a 🎲')      
   print('You rolled a', randint(1, 6))    
 
 --- /code ---
@@ -73,9 +73,9 @@ line_number_start: 20
 line_highlights: 22
 --- 
 
-print('The', calendar, clock, 'is', datetime.now())
+print('The 📅 🕒 is', datetime.now())
 
-roll_dice() #Call the roll dice function
+roll_dice() # Call the roll dice function
 
 --- /code ---
 
@@ -85,11 +85,22 @@ roll_dice() #Call the roll dice function
 
 **Test:** Run your project several times to see the random dice roll each time. 
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**Debug:** 
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+--- collapse ---
+---
+title: I have a syntax error 
+---
+
+- Make sure you have an underscore `_` between roll and dice to make the function name. 
+
+- Make sure you have a colon `:` at the end of the line.
+
+- Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
 
 ![The Trinket editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+
+--- /collapse ---
 
 --- /task ---
 
@@ -99,18 +110,7 @@ Uses of random numbers include cryptography, data science, and adding variety in
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled. 
-
---- collapse ---
----
-title: What would happen if you use `print(fire * randint(1, 6))`? 
----
-
-You would get a new random number that is usually different from your first random number. 
-
---- /collapse ---
-
-Hmm, how can you make sure you use the same random number?
+The code `print('🔥' * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled. 
 
 Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
  
@@ -123,19 +123,44 @@ line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-#Put function definitions under here
+# Function definitions
 
 def roll_dice():    
   print(python, 'can make a', dice)    
-  roll = randint(1, 6) #Generate a random number between 1 and 6    
-  print('You rolled a', roll) #Print the value of the roll variable     
-  print(fire * roll) #Repeat the fire emoji to match the dice roll    
+  roll = randint(1, 6) # Generate a random number between 1 and 6    
+  print('You rolled a', roll) # Print the value of the roll variable     
+  print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+You can use a '❤️' or '⭐' emoji if you prefer.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+The operator `*` means multiply so `'🔥' * roll` multiples the text in the 🔥 emoji by the number contained in the `roll` variable.
+
+--- /task ---
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 7
+line_highlights: 11 - 13
+---
+
+# Function definitions
+
+def roll_dice():    
+  print(python, 'can make a', dice)    
+  roll = randint(1, 6) # Generate a random number between 1 and 6    
+  print('You rolled a', roll) # Print the value of the roll variable     
+  print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
+
+--- /code ---
+
+You can use a '❤️' or '⭐' emoji if you prefer.
+
+The operator `*` means multiply so `'🔥' * roll` multiples the text in the 🔥 emoji by the number contained in the `roll` variable.
+--- task ---
 
 --- /task ---
 
@@ -148,10 +173,6 @@ The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` 
 --- /task ---
 
 Upgrade your dice so that the user can choose the maximum number. 
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
 
 --- task ---
 
@@ -168,19 +189,17 @@ line_number_start: 7
 line_highlights: 11-12
 ---
 
-#Put function definitions under here
+# Function definitions
 
 def roll_dice():   
   print(python, 'can make a', dice)   
-  max = input('How many sides?:') #Wait for input from the user    
-  print('That\'s a D', max) #Use the number the user entered    
+  max = input('How many sides?:') # Wait for input from the user    
+  print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
   roll = randint(1, 6)    
   print('You rolled a', roll)    
-  print(fire * roll)     
+  print('🔥' * roll)     
 
 --- /code ---
-
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 --- /task ---
   
@@ -199,15 +218,15 @@ line_number_start: 7
 line_highlights: 13
 ---
 
-#Put function definitions under here
+# Function definitions
 
 def roll_dice():   
   print(python, 'can make a', dice)   
-  max = input('How many sides?:') #Wait for input from the user   
-  print('That\'s a D', max) #Use the number the user entered   
-  roll = randint(1, int(max)) #randint needs max to be an 'integer'   
+  max = input('How many sides?:') # Wait for input from the user   
+  print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
+  roll = randint(1, int(max)) # randint needs max to be an 'integer'   
   print('You rolled a', roll)   
-  print(fire * roll)   
+  print('🔥' * roll)   
   
 --- /code ---
 

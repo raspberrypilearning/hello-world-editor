@@ -13,15 +13,34 @@ Get Python to do a calculation for you and also get the current time and date.
 
 In Python you can use operators to do calculations:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |   
+<table style=width: 60%; border: 1px solid #dddddd; text-align: left; padding: 8px;>
+  <tr>
+    <td>+</td>
+    <td>add</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>subtract</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>multiply</td>
+  </tr>
+  <tr>
+    <td>/</td>
+    <td>divide</td>
+  </tr>
+  <tr>
+    <td>**</td>
+    <td>to the power</td>
+  </tr>
+</table>
 
 --- task ---
 
 Add another two `print()` lines to your code including a calculation for Python to work out:
+
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
 --- code ---
 ---
@@ -38,8 +57,6 @@ print(python, 'is very good at maths!')
 print(230 * 5782 ** 2 / 23781) # Print the result of the sum    
 
 --- /code ---
-
-**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
 **Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
 
@@ -132,11 +149,11 @@ line_highlights: 16-17
 
 print(python, 'is very good at maths!')     
 print(230 * 5782 ** 2 / 23781) # Print the result of the sum     
-print('The', 📅, 🕒, 'is', datetime.now()) # Print with emojis    
+print('The 📅 🕒 is', datetime.now()) # Print with emojis    
  
 --- /code ---
 
-**Tip:** Find the comment `# Emojis to copy and paste into your code` and copy the emojis you want to use then paste them into your code. 
+**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code` and copy the emojis you want to use then paste them into your code. 
 
 [[[choose-an-emoji]]]
 
