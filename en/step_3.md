@@ -13,7 +13,26 @@ Get Python to do a calculation for you and also get the current time and date.
 
 In Python you can use operators to do calculations:
 
-<table style=width: 60%; border: 1px solid #dddddd; text-align: left; padding: 8px;>
+<style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+</style>
+
+<div>
+<table >
   <tr>
     <td>+</td>
     <td>add</td>
@@ -35,10 +54,11 @@ In Python you can use operators to do calculations:
     <td>to the power</td>
   </tr>
 </table>
+</div>
 
 --- task ---
 
-Add another two `print()` lines to your code including a calculation for Python to work out:
+Add another two `print()` lines to your code with a calculation for Python to work out:
 
 **Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
