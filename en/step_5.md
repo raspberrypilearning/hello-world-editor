@@ -21,8 +21,8 @@ language: python
 filename: main.py
 ---
 
-print('I', heart, '...')   
-print('... makes me', happy)   
+print('I ❤️ ...')   
+print('... makes me 😃')   
 print('I\'d like to make ... with', python)   
 
 --- /code ---
@@ -35,7 +35,7 @@ print('I\'d like to make ... with', python)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 

@@ -12,7 +12,7 @@ steps:
   - title: Calculations and dates
     completion:
       - engaged
-  - title: Roll a dice
+  - title: Roll a dice 🎲
   - title: Sentence starter
     completion:
       - internal

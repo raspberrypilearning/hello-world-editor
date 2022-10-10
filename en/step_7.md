@@ -12,12 +12,16 @@ Add more to your project. There are more emojis to choose from.
 </div>
 
 You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
++ Use `print` with different text and emojis
++ Use `input` to get values from the user and store them as variables, then do calculations with the variables
 + Write more functions to organise your code
 + Use `#` to add comments to your code
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code`. Copy the emojis you want to use then paste them into your code. 
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 Here's an example function that asks about hobbies:
 
@@ -27,7 +31,7 @@ language: python
 filename: main.py
 ---
 
-#Put code to run under here    
+# Put code to run under here    
 def hobbies():   
   hobby = input('What do you like?')   
   print('That sounds', fun)   
@@ -47,7 +51,7 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input() # Wait for the user to tap Enter
 
 hobbies()
 
