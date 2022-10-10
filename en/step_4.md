@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.
+Create a function for rolling a dice using random numbers. 
 </div>
 <div>
 
@@ -11,15 +11,13 @@ Python can generate random numbers to make digital dice.
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
-
-You can **define** a new **function** to group code together so that you can name it and reuse it. 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**function**</span> can be created in Python to perform an action. You have already used a function called `print()` to display messages on the screen.
+</p>
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `# Function definitions`.
-
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Define a function called `roll_dice()`.
 
 --- code ---
 ---
@@ -27,20 +25,18 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 7
-line_highlights: 9-12
+line_highlights: 9
 ---
 
 # Function definitions
 
-def roll_dice(): # Don't forget the colon at the end of this line   
-  print(python, 'can make a 🎲')      
-  print('You rolled a', randint(1, 6))    
+def roll_dice(): 
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+**Tip:** Remember that the code editor adds the closing bracket `)` for you. Use the right arrow to move your cursor to the end of the line then type the colon `:`.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
+**Tip:** An underscore `_` is used between words in variable and function names in Python to make them easier to read. You can't use a space. 
 
 --- collapse ---
 ---
@@ -56,13 +52,54 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+Press <kbd>Enter</kbd> after your colon `:` to add the code for your function. Your cursor should be indented within the function. 
+
+**Add** the code to print `You rolled` and then display a **random number** between 1 and 6.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 7
+line_highlights: 10
+---
+
+# Function definitions
+
+def roll_dice(): # Don't forget the colon at the end of this line   
+  print('You rolled', randint(1, 6))    
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+**Test:** Run your code to check for errors. It won't roll a dice yet.
+
+**Debug:** 
+
+--- collapse ---
+---
+title: I have a syntax error 
+---
+
+- Make sure you have an underscore `_` between roll and dice to make the function name. 
+
+- Make sure you have a colon `:` at the end of the line.
+
+- Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+
+![The code editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
 
 --- code ---
 ---
@@ -85,23 +122,6 @@ roll_dice() # Call the roll dice function
 
 **Test:** Run your project several times to see the random dice roll each time. 
 
-**Debug:** 
-
---- collapse ---
----
-title: I have a syntax error 
----
-
-- Make sure you have an underscore `_` between roll and dice to make the function name. 
-
-- Make sure you have a colon `:` at the end of the line.
-
-- Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
-
-![The Trinket editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
-
---- /collapse ---
-
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -110,9 +130,7 @@ Uses of random numbers include cryptography, data science, and adding variety in
 
 --- task ---
 
-The code `print('🔥' * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled. 
-
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+**Change** your code to save the value returned by `randint()` in a variable called `roll`.
  
 --- code ---
 ---
@@ -120,7 +138,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 7
-line_highlights: 11 - 13
+line_highlights: 11 - 12
 ---
 
 # Function definitions
@@ -128,23 +146,23 @@ line_highlights: 11 - 13
 def roll_dice():    
   print(python, 'can make a', dice)    
   roll = randint(1, 6) # Generate a random number between 1 and 6    
-  print('You rolled a', roll) # Print the value of the roll variable     
-  print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
+  print('You rolled a', roll) # Print the value of the roll variable        
 
 --- /code ---
 
-You can use a '❤️' or '⭐' emoji if you prefer.
-
-The operator `*` means multiply so `'🔥' * roll` multiples the text in the 🔥 emoji by the number contained in the `roll` variable.
-
 --- /task ---
+
+--- task ---
+
+Add code to print out a number of '🔥' emojis to match the number on the dice. You can use a '❤️' or '⭐' emoji if you prefer.
+
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 7
-line_highlights: 11 - 13
+line_highlights: 13
 ---
 
 # Function definitions
@@ -152,27 +170,20 @@ line_highlights: 11 - 13
 def roll_dice():    
   print(python, 'can make a', dice)    
   roll = randint(1, 6) # Generate a random number between 1 and 6    
-  print('You rolled a', roll) # Print the value of the roll variable     
+  print('You rolled', roll) # Print the value of the roll variable     
   print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
 
 --- /code ---
 
-You can use a '❤️' or '⭐' emoji if you prefer.
-
-The operator `*` means multiply so `'🔥' * roll` multiples the text in the 🔥 emoji by the number contained in the `roll` variable.
---- task ---
-
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works. 
-
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**Test:** Test your project a few times. 
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number. 
+### Choose the number of sides on the dice
 
 --- task ---
 
