@@ -20,9 +20,12 @@ You will:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click on the <stong>▶️ Run</strong> button.  
+Click on the <strong>Run</strong> button.  
+
 Read the output and then tap <kbd>Enter</kbd> to continue. 
+
 Type in your answers to the questions. 
+
 Can you see how your answers are used?
 </div>
 <div class="trinket">
