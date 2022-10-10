@@ -10,8 +10,9 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- no-print ---
 
+<div>
 <div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/editor/hello-world-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/f686c82d8a?outputOnly=true&start=result" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 </div>
