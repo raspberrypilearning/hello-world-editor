@@ -130,7 +130,7 @@ Uses of random numbers include cryptography, data science, and adding variety in
 
 --- task ---
 
-**Change** your code to save the value returned by `randint()` in a variable called `roll`.
+**Change** your function code to save the value returned by `randint()` in a variable called `roll`.
  
 --- code ---
 ---
@@ -144,7 +144,6 @@ line_highlights: 11 - 12
 # Function definitions
 
 def roll_dice():    
-  print(python, 'can make a', dice)    
   roll = randint(1, 6) # Generate a random number between 1 and 6    
   print('You rolled a', roll) # Print the value of the roll variable        
 
@@ -167,8 +166,7 @@ line_highlights: 13
 
 # Function definitions
 
-def roll_dice():    
-  print(python, 'can make a', dice)    
+def roll_dice():      
   roll = randint(1, 6) # Generate a random number between 1 and 6    
   print('You rolled', roll) # Print the value of the roll variable     
   print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
@@ -202,8 +200,7 @@ line_highlights: 11-12
 
 # Function definitions
 
-def roll_dice():   
-  print(python, 'can make a', dice)   
+def roll_dice():      
   max = input('How many sides?:') # Wait for input from the user    
   print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
   roll = randint(1, 6)    
@@ -232,7 +229,6 @@ line_highlights: 13
 # Function definitions
 
 def roll_dice():   
-  print(python, 'can make a', dice)   
   max = input('How many sides?:') # Wait for input from the user   
   print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
   roll = randint(1, int(max)) # randint needs max to be an 'integer'   

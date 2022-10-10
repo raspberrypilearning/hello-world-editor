@@ -29,10 +29,7 @@ print('I\'d like to make ... with', python)
 
 **Tip:** To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
-
 **Tip:** `print` adds a space between each item you print. 
-
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text. 
 
 --- /task ---
 
@@ -44,9 +41,11 @@ The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show
 
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code`. Copy the emojis you want to use then paste them into your code. 
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want. 
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
