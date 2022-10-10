@@ -63,6 +63,6 @@ hobbies()
 title: Completed project
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+You can view the [completed project here](https://editor.raspberrypi.org/python/python-hello-starter){:target="_blank"}.
 
 --- /collapse ---
