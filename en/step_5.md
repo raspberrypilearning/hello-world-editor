@@ -27,6 +27,9 @@ print('I\'d like to make ... with', python)
 
 --- /code ---
 
+**Tip:** To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+
+
 **Tip:** `print` adds a space between each item you print. 
 
 **Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text. 
