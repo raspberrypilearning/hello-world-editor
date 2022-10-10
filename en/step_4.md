@@ -26,12 +26,10 @@ Define a function called `roll_dice()`.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 9
+line_number_start: 14
+line_highlights: 15
 ---
-
 # Function definitions
-
 def roll_dice(): 
 
 --- /code ---
@@ -63,12 +61,10 @@ Press <kbd>Enter</kbd> after your colon `:` to add the code for your function. Y
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 10
+line_number_start: 14
+line_highlights: 16
 ---
-
 # Function definitions
-
 def roll_dice(): # Don't forget the colon at the end of this line   
   print('You rolled', randint(1, 6))    
 
@@ -110,11 +106,10 @@ To use a function, you need to **call** it in the code. Go to the end of your co
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 22
+line_number_start: 23
+line_highlights: 25
 --- 
-
-print('The 📅 🕒 is', datetime.now())
+print('The 📅 🕒 is', datetime.now()) # Print with emojis 
 
 roll_dice() # Call the roll dice function
 
@@ -143,12 +138,10 @@ Uses of random numbers include cryptography, data science, and adding variety in
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 11 - 12
+line_number_start: 14
+line_highlights: 16 - 17
 ---
-
 # Function definitions
-
 def roll_dice():    
   roll = randint(1, 6) # Generate a random number between 1 and 6    
   print('You rolled a', roll) # Print the value of the roll variable        
@@ -200,12 +193,10 @@ The `input()` function asks the user a question and then returns their answer.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 11-12
+line_number_start: 14
+line_highlights: 16-17
 ---
-
 # Function definitions
-
 def roll_dice():      
   max = input('How many sides?: ') # Wait for input from the user    
   print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
@@ -228,12 +219,10 @@ When you get input from the user, Python treats it as text. But, `randint` needs
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 13
+line_number_start: 14
+line_highlights: 18
 ---
-
 # Function definitions
-
 def roll_dice():   
   max = input('How many sides?:') # Wait for input from the user   
   print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
@@ -250,5 +239,3 @@ def roll_dice():
 **Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number. 
 
 --- /task ---
-
---- save ---

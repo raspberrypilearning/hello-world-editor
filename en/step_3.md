@@ -67,10 +67,9 @@ Add another two `print()` lines to your code with a calculation for Python to wo
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
-line_highlights: 14-15
+line_number_start: 17
+line_highlights: 19-20
 ---
-
 print('Hello', world)   
 print('Welcome to', python)   
 print(python, 'is very good at maths!')   
