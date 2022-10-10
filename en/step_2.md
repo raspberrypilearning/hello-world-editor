@@ -84,11 +84,9 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 + **Fix:** Check that you have single quotes `''` around `'Hello'`
 
-![The code editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/ADD_IMAGE.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 10 in main.py.](images/ADD_IMAGE.png)
 
 + **Fix:** Make sure that you have used brackets around `('Hello')`
-
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 10 in main.py.](images/ADD_IMAGE.png)
 
 --- /task ---
 
@@ -142,15 +140,18 @@ print('Hello', world)
 
 **Tip:** Emoji can look different on different computers, so yours might not look exactly the same.
 
---- /task ---
+--- collapse ---
+---
+title: I have a syntax error
+---
 
---- task ---
-
-**Debug:** Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `world` correctly.
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `world` correctly.
 
 This example is missing the comma `,`. It's small but very important!
 
 ![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+
+--- /collapse ---
 
 --- /task ---
 
@@ -172,7 +173,7 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Tip:** In the code above, the code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Tip:** In the code above, the line you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
 
 --- /task ---
 
@@ -184,12 +185,17 @@ print('Welcome to', python)
 
 **Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+--- collapse ---
+---
+title: I have a syntax error
+---
+
+Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+
+--- /collapse ---
 
 --- /task ---
 
-<mark>If you have an account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+<mark>NEEDS TO BE EXPLAINED FOR THE NEW EDITOR If you have an account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
 
 If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.</mark>
-
---- save ---
