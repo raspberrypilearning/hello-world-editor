@@ -66,5 +66,3 @@ title: Completed project
 You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
-
---- save ---
