@@ -15,6 +15,8 @@ Create a function for rolling a dice using random numbers.
 A <span style="color: #0faeb0">**function**</span> can be created in Python to perform an action. You have already used a function called `print()` to display messages on the screen.
 </p>
 
+### Define your function
+
 --- task ---
 
 Define a function called `roll_dice()`.
@@ -97,6 +99,8 @@ title: I have a syntax error
 
 --- /task ---
 
+### Call your function
+
 --- task ---
 
 To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
@@ -127,6 +131,8 @@ roll_dice() # Call the roll dice function
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
 </p>
+
+### Use 🔥🔥🔥 for the number rolled
 
 --- task ---
 
@@ -187,7 +193,7 @@ def roll_dice():
 
 The `input()` function asks the user a question and then returns their answer.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area: 
+**Add** code to ask the user for the biggest number on their dice and then store the result in a variable called `max` and `print` the number chosen: 
 
 --- code ---
 ---
@@ -201,7 +207,7 @@ line_highlights: 11-12
 # Function definitions
 
 def roll_dice():      
-  max = input('How many sides?:') # Wait for input from the user    
+  max = input('How many sides?: ') # Wait for input from the user    
   print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
   roll = randint(1, 6)    
   print('You rolled a', roll)    
