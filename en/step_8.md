@@ -12,7 +12,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 <div>
 <div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/python/python-hello-starter" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 </div>
