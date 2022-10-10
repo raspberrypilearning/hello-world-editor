@@ -1,0 +1,43 @@
+Put code to run under here
+
+Print the result of the sum
+
+Print with emoji
+
+Put function definitions under here
+
+Don't forget the colon at the end of this line
+
+Call the roll_dice function
+
+Generate a random number between 1 and 6
+
+Print the value of the roll variable
+
+Repeat the fire emoji to match the dice roll
+
+Wait for input from the user
+
+Use the number the user entered
+
+randint needs max to be an 'integer'
+
+Wait for the user to tap Enter
+
+Useful characters :',()*_/.#
+
+Emoji variables to use in your project
+
+Add ASCII art alternatives
+
+Before emoji we used emoticons made from characters
+
+get input from the user
+
+generate a random number
+
+repeat the fire text roll times
+
+get the current date and time
+
+Call the hobbies function
