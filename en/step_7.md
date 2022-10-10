@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Add more to your project. There are more emojis to choose from.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![A longer project in the text output area with more text, emojis, and inputs.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>

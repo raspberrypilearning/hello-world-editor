@@ -15,7 +15,6 @@ In Python you can use operators to do calculations:
 
 <style>
     table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 60%;
     }
@@ -55,6 +54,7 @@ In Python you can use operators to do calculations:
   </tr>
 </table>
 </div>
+<br/>
 
 --- task ---
 
