@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make your program say `Hello 🌍🌎🌏`.
+Make your program say 'Hello 🌍🌎🌏'.
 </div>
 <div>
 ![The text output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
@@ -18,22 +18,22 @@ Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/pyt
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lines beginning with a `#` are <span style="color: #0faeb0">**Comments**</span> they explain what the code will do. Comments are ignored by Python.
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
 </p>
 
 --- task ---
 
 Find the `# Put code to run below here` comment.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Click below that line. 
+
+The flashing `|` is the cursor and shows where you will type.
 
 --- /task ---
 
-In Python, `print()` outputs text (words or numbers) to the screen.
-
 --- task ---
 
-Type the code to `print()` Hello. 
+Type the code to `print()` Hello to the screen.
 
 **Tip:** When you type an opening bracket `(` or opening `'` the code editor will automatically add closing bracket `)` or `'`:
 
@@ -76,17 +76,14 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 **Debug:** If you get an error then check your code really carefully. 
 
-![The code editor with an uppercase P in Print and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/ADD_IMAGE.png)
+![The code editor with an uppercase P in Print and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/NameError.png)
 
-+ **Fix:** Use a lowercase `p` in `print`
-
-![The code editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/ADD_IMAGE.png)
-
++ **Fix:** Check that you have a lowercase `p` in `print`
 + **Fix:** Check that you have single quotes `''` around `'Hello'`
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 10 in main.py.](images/ADD_IMAGE.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 10 in main.py.](images/SyntaxError.png)
 
-+ **Fix:** Make sure that you have used brackets around `('Hello')`
++ **Fix:** Check that you have used brackets around `('Hello')`
 
 --- /task ---
 
@@ -94,7 +91,7 @@ The comma `,` is next to the <kbd>M</kbd>.
 A <span style="color: #0faeb0">**variable**</span> is used to store values that you want to use later in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 </p>
 
-We have included some variables that store emoji characters.
+We have included some variables that store emojis.
 
 --- code ---
 ---
@@ -114,7 +111,7 @@ sums = '✖️➗➖➕'
 
 **Add** a comma `,` and the variable name for `world` into your `print('Hello')` line of code. 
 
-This will `print()` the string `Hello` and the three world emojis (🌍🌎🌏) that are stored in the variable `world`.
+This will `print()` the string[^1] (text) `Hello` and the three world emojis (🌍🌎🌏) that are stored in the variable `world`.
 
 --- code ---
 ---
