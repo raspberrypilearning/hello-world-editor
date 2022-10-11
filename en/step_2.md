@@ -17,6 +17,8 @@ Open the [starter project](https://editor.raspberrypi.org/python/hello-world-sta
 
 --- /task ---
 
+### Print hello
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
 </p>
@@ -85,6 +87,8 @@ The comma `,` is next to the <kbd>M</kbd>.
 + **Fix:** Check that you have used brackets around `('Hello')`
 
 --- /task ---
+
+## Print 🌍🌎🌏
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">**variable**</span> is used to store values that you want to use later in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
