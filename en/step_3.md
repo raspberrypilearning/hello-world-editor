@@ -56,6 +56,8 @@ In Python you can use operators to do calculations:
 </div>
 <br/>
 
+### Create a calculation
+
 --- task ---
 
 Add another two `print()` lines to your code with a calculation for Python to work out:
@@ -124,6 +126,8 @@ Make sure your calculation has round brackets around it `(2 * 45)`. If you use e
 --- /collapse ---
 
 --- /task ---
+
+### Print the current time and date
 
 The line `from datetime import datetime` at the top of your code imports a library with helpful functions for getting the current date and time.
 
