@@ -19,6 +19,7 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 ---
 language: python
 filename: main.py
+line_numbers: true
 line_number_start: 29
 line_highlights: 30-32
 ---
