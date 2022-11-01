@@ -18,7 +18,7 @@ language: python
 ---
 
 def awesome():
-  print('I can code')
+    print('I can code')
 
 --- /code ---
 
@@ -54,7 +54,7 @@ language: python
 ---
 
 def awesome()
-  print('I can code')
+    print('I can code')
   
 --- /code ---
 
