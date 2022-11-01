@@ -33,9 +33,9 @@ filename: main.py
 
 # Put code to run under here    
 def hobbies():   
-  hobby = input('What do you like?')   
-  print('That sounds', fun)   
-  print('You could make a', python, 'project about', hobby)   
+    hobby = input('What do you like?')   
+    print('That sounds', fun)   
+    print('You could make a', python, 'project about', hobby)   
 
 --- /code ---
 

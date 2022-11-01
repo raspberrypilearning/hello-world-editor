@@ -66,10 +66,10 @@ line_highlights: 16
 ---
 # Function definitions
 def roll_dice(): # Don't forget the colon at the end of this line   
-  print('You rolled', randint(1, 6))    
+    print('You rolled', randint(1, 6))    
 
 --- /code ---
-
+ 
 --- /task ---
 
 --- task ---
@@ -143,8 +143,8 @@ line_highlights: 16 - 17
 ---
 # Function definitions
 def roll_dice():    
-  roll = randint(1, 6) # Generate a random number between 1 and 6    
-  print('You rolled a', roll) # Print the value of the roll variable        
+    roll = randint(1, 6) # Generate a random number between 1 and 6    
+    print('You rolled a', roll) # Print the value of the roll variable        
 
 --- /code ---
 
@@ -166,9 +166,9 @@ line_highlights: 13
 # Function definitions
 
 def roll_dice():      
-  roll = randint(1, 6) # Generate a random number between 1 and 6    
-  print('You rolled', roll) # Print the value of the roll variable     
-  print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
+    roll = randint(1, 6) # Generate a random number between 1 and 6    
+    print('You rolled', roll) # Print the value of the roll variable     
+    print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
 
 --- /code ---
 
@@ -198,11 +198,11 @@ line_highlights: 16-17
 ---
 # Function definitions
 def roll_dice():      
-  max = input('How many sides?: ') # Wait for input from the user    
-  print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
-  roll = randint(1, 6)    
-  print('You rolled a', roll)    
-  print('🔥' * roll)     
+    max = input('How many sides?: ') # Wait for input from the user    
+    print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
+    roll = randint(1, 6)    
+    print('You rolled a', roll)    
+    print('🔥' * roll)     
 
 --- /code ---
 
@@ -224,11 +224,11 @@ line_highlights: 18
 ---
 # Function definitions
 def roll_dice():   
-  max = input('How many sides?:') # Wait for input from the user   
-  print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
-  roll = randint(1, int(max)) # randint needs max to be an 'integer'   
-  print('You rolled a', roll)   
-  print('🔥' * roll)   
+    max = input('How many sides?:') # Wait for input from the user   
+    print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
+    roll = randint(1, int(max)) # randint needs max to be an 'integer'   
+    print('You rolled a', roll)   
+    print('🔥' * roll)   
   
 --- /code ---
 

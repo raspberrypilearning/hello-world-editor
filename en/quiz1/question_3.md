@@ -11,8 +11,8 @@ language: python
 ---
 
 def two_dice():
-  print('First number:', randint(1, 6))
-  print('Second number:', randint(1, 6))
+    print('First number:', randint(1, 6))
+    print('Second number:', randint(1, 6))
 
 --- /code ---
 
@@ -30,8 +30,8 @@ language: python
 ---
 
 def two_dice():
-  print('First number:', randint(1, 6))
-  print('Second number:', randint(1, 6))
+    print('First number:', randint(1, 6))
+    print('Second number:', randint(1, 6))
 
 --- /code ---
 
