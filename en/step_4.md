@@ -6,7 +6,7 @@ Create a function for rolling a dice using random numbers.
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll-dice.png){:width="300px"}
 
 </div>
 </div>
@@ -32,6 +32,8 @@ line_highlights: 15
 # Function definitions
 def roll_dice(): 
 
+# Put code to run under here
+print('Hello', world)
 --- /code ---
 
 **Tip:** Remember that the code editor adds the closing bracket `)` for you. Use the right arrow to move your cursor to the end of the line then type the colon `:`.
@@ -89,7 +91,7 @@ title: I have a syntax error
 
 - Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
 
-![The code editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![The code editor showing the line of code inside the `roll_dice` function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 16 in main.py'.](images/indentation-error.png)
 
 --- /collapse ---
 
@@ -114,6 +116,8 @@ print('The 📅 🕒 is', datetime.now()) # Print with emojis
 roll_dice() # Call the roll dice function
 
 --- /code ---
+
+**Tip:** Python ignores blank (empty) lines so you can add them to make your code easier to read.
 
 --- /task ---
 
@@ -159,16 +163,15 @@ Add code to print out a number of '🔥' emojis to match the number on the dice.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 13
+line_number_start: 14
+line_highlights: 18
 ---
-
 # Function definitions
 
 def roll_dice():      
     roll = randint(1, 6) # Generate a random number between 1 and 6    
     print('You rolled', roll) # Print the value of the roll variable     
-    print('🔥' * roll) # Repeat the fire emoji to match the dice roll    
+    print(roll, '🔥' * roll) # Repeat the fire emoji to match the dice roll  
 
 --- /code ---
 
@@ -198,12 +201,12 @@ line_highlights: 16-17
 ---
 # Function definitions
 def roll_dice():      
-    max = input('How many sides?: ') # Wait for input from the user    
+    max = input('How many sides for your 🎲?: ') # Wait for input from the user    
     print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
     roll = randint(1, 6)    
     print('You rolled a', roll)    
-    print('🔥' * roll)     
-
+    print(roll, '🔥' * roll) # Repeat the fire emoji to match the dice roll  
+     
 --- /code ---
 
 --- /task ---
@@ -228,7 +231,7 @@ def roll_dice():
     print('Rolling a', max, 'sided dice ...') # Use the number the user entered 
     roll = randint(1, int(max)) # randint needs max to be an 'integer'   
     print('You rolled a', roll)   
-    print('🔥' * roll)   
+    print(roll, '🔥' * roll) # Repeat the fire emoji to match the dice roll    
   
 --- /code ---
 
