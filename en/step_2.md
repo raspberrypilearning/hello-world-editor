@@ -11,9 +11,9 @@ Make your program say Hello world.
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/python/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/python/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
 
-![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter_project.png)
+![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter-project.png){:width="400px"}
 
 --- /task ---
 
