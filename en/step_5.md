@@ -6,7 +6,7 @@ Output more sentences from your project.
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+![Some new print lines in the output area with emoji and text sentences.](images/sentence-starter.png){:width="350px"}
 
 </div>
 </div>
@@ -20,8 +20,8 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 29
-line_highlights: 30-32
+line_number_start: 28
+line_highlights: 29-32
 ---
 roll_dice() # Call the roll dice function
 print('I ❤️ ...')   
@@ -33,6 +33,8 @@ print('I\'d like to make ... with', python)
 **Tip:** To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 **Tip:** `print` adds a space between each item you print. 
+
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
 
 --- /task ---
 
