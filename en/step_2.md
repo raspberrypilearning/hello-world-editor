@@ -187,7 +187,7 @@ print('Welcome to', python)
 
 **Test:** Click **Run**. 
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run-multiple.png)
 
 **Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
 
@@ -202,6 +202,15 @@ Check carefully for brackets, quotes, commas, and correct spelling. Python needs
 
 --- /task ---
 
-<mark>NEEDS TO BE EXPLAINED FOR THE NEW EDITOR If you have an account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+--- task ---
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.</mark>
+<mark>Do you need to name the project? This flow doesn't seem to be working at the moment with the starter project url so haven't been able to check.</mark>
+
+**Save** your project by clicking on the 'Save' button.
+
+![The Code Editor with the Save button shown.](images/editor-save.png)
+
+If you don't have a Raspberry Pi Foundation account, you can still come back to your project in the future on the same computer and web browser. You can also click 'Download' to save your project to your computer. This will create a '.zip' file containing the code from your project.
+
+--- /task ---
+
