@@ -6,7 +6,7 @@ Add more to your project. There are more emojis to choose from.
   </div>
 <div>
 
-![A longer project in the text output area with more text, emojis, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![A longer project in the text output area with more text, emojis, and inputs.](images/upgrade-ideas.png){:width="350px"}
 
 </div>
 </div>
