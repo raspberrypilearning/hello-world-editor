@@ -69,7 +69,7 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 **Test:** Click on the **Run** button at the bottom of the code editor to run your code. The output will appear on the right:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run-hello.png)
 
 --- /task ---
 
