@@ -6,7 +6,7 @@ Create a function for rolling a dice using random numbers.
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll-dice.png){:width="300px"}
+![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll-dice.png){:width="350px"}
 
 </div>
 </div>
