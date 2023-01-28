@@ -6,7 +6,7 @@ Output more sentences from your project.
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+![Some new print lines in the output area with emoji and text sentences.](images/sentence-starter.png){:width="350px"}
 
 </div>
 </div>
@@ -20,8 +20,8 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 29
-line_highlights: 30-32
+line_number_start: 28
+line_highlights: 29-32
 ---
 roll_dice() # Call the roll dice function
 print('I ❤️ ...')   
@@ -34,6 +34,8 @@ print('I\'d like to make ... with', python)
 
 **Tip:** `print` adds a space between each item you print. 
 
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
+
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -44,7 +46,7 @@ The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to
 
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code`. Copy the emojis you want to use then paste them into your code. 
+**Tip:** The starter projects include emojis in comments. Copy the emojis you want to use then paste them into your code. 
 
 📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
 

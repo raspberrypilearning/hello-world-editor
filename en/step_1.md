@@ -22,7 +22,7 @@ You will:
 <div style="flex-basis: 175px; flex-grow: 1">  
 Click on the <strong>Run</strong> button and read the output.
 
-Type in your answers to the questions. 
+  When you are asked, type in a number and tap <kbd>Enter</kbd>. 
 
 Can you see how your answers are used?
 </div>

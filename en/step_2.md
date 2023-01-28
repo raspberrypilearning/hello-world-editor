@@ -2,18 +2,21 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make your program say Hello world.
+Make your program print Hello world.
+  
+In Python `print` is like 'say' in Scratch. 
+  
 </div>
 <div>
-![The text output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![The text output area showing the two printed lines of text and emoji.](images/say-hello.png){:width="350px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/python/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
 
-![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter_project.png)
+![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter-project.png){:width="640px"}
 
 --- /task ---
 
@@ -69,7 +72,7 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 **Test:** Click on the **Run** button at the bottom of the code editor to run your code. The output will appear on the right:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run-hello.png)
 
 --- /task ---
 
@@ -143,7 +146,7 @@ print('Hello', world)
 
 **Test:** Run your code to see the result:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run-hello-world.png)
 
 **Tip:** Emoji can look different on different computers, so yours might not look exactly the same.
 
@@ -156,7 +159,7 @@ Make sure that you have added a comma `,` between the items in `print()` and tha
 
 This example is missing the comma `,`. It's small but very important!
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma-error.png)
 
 --- /collapse ---
 
@@ -187,7 +190,7 @@ print('Welcome to', python)
 
 **Test:** Click **Run**. 
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run-multiple.png)
 
 **Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
 
@@ -202,6 +205,18 @@ Check carefully for brackets, quotes, commas, and correct spelling. Python needs
 
 --- /task ---
 
-<mark>NEEDS TO BE EXPLAINED FOR THE NEW EDITOR If you have an account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+--- task ---
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.</mark>
+**Save** your project by clicking on the 'Save' button. 
+
+![The Code Editor with the Save button shown.](images/editor-save.png)
+
+If you are logged in then your project will be saved to 'My Projects' in your Raspberry Pi Foundation account. 
+
+If you don't have an account you can click 'Download' to save your project to your computer. This will create a '.zip' file containing the code from your project.
+
+**Tip:** If you accidentally close the editor then you can open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"} to get back to your code.
+
+--- /task ---
+
+
