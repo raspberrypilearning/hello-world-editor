@@ -207,13 +207,16 @@ Check carefully for brackets, quotes, commas, and correct spelling. Python needs
 
 --- task ---
 
-<mark>Do you need to name the project? This flow doesn't seem to be working at the moment with the starter project url so haven't been able to check.</mark>
-
-**Save** your project by clicking on the 'Save' button.
+**Save** your project by clicking on the 'Save' button. 
 
 ![The Code Editor with the Save button shown.](images/editor-save.png)
 
-If you don't have a Raspberry Pi Foundation account, you can still come back to your project in the future on the same computer and web browser. You can also click 'Download' to save your project to your computer. This will create a '.zip' file containing the code from your project.
+If you are logged in then your project will be saved to 'My Projects' in your Raspberry Pi Foundation account. 
+
+If you don't have an account you can click 'Download' to save your project to your computer. This will create a '.zip' file containing the code from your project.
+
+**Tip:** If you accidentally close the editor then you can open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"} to get back to your code.
 
 --- /task ---
+
 
