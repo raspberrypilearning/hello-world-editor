@@ -6,7 +6,7 @@ Get Python to do a calculation for you and also get the current time and date.
 </div>
 <div>
 
-![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums-dates.png){:width="350px"}
 
 </div>
 </div>
@@ -161,13 +161,15 @@ Add another line to your code to `print` some more text and the emojis for `cale
 
 Get the current date and time by using `datetime.now()`.
 
+<mark>It's very hard to add code if you have a small screen and font size medium as the run button is in the way and the line before is long. There's no way to click under the code on the left in the editor and get a new line.</mark>
+
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 14
-line_highlights: 16-17
+line_number_start: 19
+line_highlights: 21
 ---
 
 print(python, 'is very good at maths!')     
@@ -187,5 +189,15 @@ print('The 📅 🕒 is', datetime.now()) # Print with emojis
 **Test:** Run your code a couple of times to see the date and time update.
 
 **Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+
+--- /task ---
+
+--- task ---
+If you are logged in to your Raspberry Pi Foundation account, the Code Editor will automatically save your project to 'Your Projects'. You can also click the 'Save' button at any time. 
+
+<mark>Check this!</mark>
+If you are not logged in, you will be able to open the [starter project](https://editor.raspberrypi.org/hello-world-starter){:target="_blank"} link to get your code back.
+
+You can also 'Download' your code to your computer. 
 
 --- /task ---
