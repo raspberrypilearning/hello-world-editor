@@ -11,7 +11,9 @@ Make your program say Hello world.
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/python/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
+<mark>Starter link no longer working. Tried removing python from path. Still not working.</mark>
+
+Open the [starter project](https://editor.raspberrypi.org/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
 
 ![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter-project.png){:width="640px"}
 
