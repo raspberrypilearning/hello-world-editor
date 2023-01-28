@@ -143,7 +143,7 @@ print('Hello', world)
 
 **Test:** Run your code to see the result:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run-hello-world.png)
 
 **Tip:** Emoji can look different on different computers, so yours might not look exactly the same.
 
@@ -156,7 +156,7 @@ Make sure that you have added a comma `,` between the items in `print()` and tha
 
 This example is missing the comma `,`. It's small but very important!
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma-error.png)
 
 --- /collapse ---
 
