@@ -5,7 +5,7 @@
 Make your program say Hello world.
 </div>
 <div>
-![The text output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![The text output area showing the two printed lines of text and emoji.](images/say-hello.png){:width="200px"}
 </div>
 </div>
 
