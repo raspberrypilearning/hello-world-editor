@@ -2,7 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make your program say Hello world.
+Make your program print Hello world.
+  
+In Python `print` is like 'say' in Scratch. 
+  
 </div>
 <div>
 ![The text output area showing the two printed lines of text and emoji.](images/say-hello.png){:width="350px"}
