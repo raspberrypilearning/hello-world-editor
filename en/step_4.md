@@ -3,6 +3,12 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Create a function for rolling a dice using random numbers. 
+  
+In Python:
+  - `randint` is like 'random' in Scratch,
+  - **functions**, defined with `def`, are like 'my blocks' in Scratch, and
+  - `=` is used like 'set' in Scratch to give a value to a **variable**.
+
 </div>
 <div>
 
