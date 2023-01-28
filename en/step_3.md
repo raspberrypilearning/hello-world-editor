@@ -193,11 +193,11 @@ print('The 📅 🕒 is', datetime.now()) # Print with emojis
 --- /task ---
 
 --- task ---
-If you are logged in to your Raspberry Pi Foundation account, the Code Editor will automatically save your project to 'Your Projects'. You can also click the 'Save' button at any time. 
 
-<mark>Check this!</mark>
-If you are not logged in, you will be able to open the [starter project](https://editor.raspberrypi.org/hello-world-starter){:target="_blank"} link to get your code back.
+If you are logged in to your Raspberry Pi Foundation account, and have already clicked 'Save', the Code Editor will automatically save your project when you make changes. You can also click the 'Save' button at any time. 
 
-You can also 'Download' your code to your computer. 
+<mark>Double check that you have to click Save</mark>
+
+**Tip:** If you get logged out of your account then your code will still be saved if you have clicked 'Save'.
 
 --- /task ---
