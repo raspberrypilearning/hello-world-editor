@@ -46,7 +46,7 @@ The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to
 
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code`. Copy the emojis you want to use then paste them into your code. 
+**Tip:** The starter projects include emojis in comments. Copy the emojis you want to use then paste them into your code. 
 
 📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
 
