@@ -6,9 +6,8 @@ Create a function for rolling a dice using random numbers.
   
 In Python:
   - **functions**, defined with `def`, are like 'my blocks' in Scratch,
-  - `randint` is like 'random' in Scratch,
-  - `input` is like 'ask' in Scratch, and
-  - `=` is used like 'set' in Scratch to give a value to a **variable**.
+  - `randint` is like 'random' in Scratch, and
+  - `input` is like 'ask' in Scratch.
 
 </div>
 <div>

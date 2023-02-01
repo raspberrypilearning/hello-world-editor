@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Make your program print Hello world.
   
-In Python `print` is like 'say' in Scratch. 
+In Python `print` is like 'say' in Scratch, and `=` is used like 'set' in Scratch to give a value to a **variable**.
   
 </div>
 <div>
