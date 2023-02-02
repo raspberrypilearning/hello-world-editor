@@ -108,8 +108,8 @@ We have included some variables that store emojis.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 4
+line_highlights: 5-6
 ---
 
 # Emoji variables to use in your project

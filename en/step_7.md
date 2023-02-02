@@ -39,9 +39,24 @@ def hobbies():
 
 --- /code ---
 
+**Tip:** Don't forget you will need to add any new variables:
+
+--- code ---
+---
+language: python
+filename: main.py
+---
+
+# Emoji variables to use in your project
+world = '🌍🌎🌏'
+python = 'Python 🐍'
+fun = '🤡🥳'
+
+--- /code ---
+
 **Tip:** Don't forget you will need to call your function as well as define it.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project:
 
 --- code ---
 ---

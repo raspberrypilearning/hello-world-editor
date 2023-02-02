@@ -20,7 +20,7 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 28
+line_number_start: 29
 line_highlights: 29-32
 ---
 roll_dice() # Call the roll dice function

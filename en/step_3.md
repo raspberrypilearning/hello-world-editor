@@ -161,8 +161,6 @@ Add another line to your code to `print` some more text and the emojis for `cale
 
 Get the current date and time by using `datetime.now()`.
 
-<mark>It's very hard to add code if you have a small screen and font size medium as the run button is in the way and the line before is long. There's no way to click under the code on the left in the editor and get a new line.</mark>
-
 --- code ---
 ---
 language: python
@@ -195,8 +193,6 @@ print('The 📅 🕒 is', datetime.now()) # Print with emojis
 --- task ---
 
 If you are logged in to your Raspberry Pi Foundation account, and have already clicked 'Save', the Code Editor will automatically save your project when you make changes. You can also click the 'Save' button at any time. 
-
-<mark>Double check that you have to click Save</mark>
 
 **Tip:** If you get logged out of your account then your code will still be saved if you have clicked 'Save'.
 
