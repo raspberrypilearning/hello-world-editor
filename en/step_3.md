@@ -56,6 +56,10 @@ In Python you can use operators to do calculations:
 </div>
 <br/>
 
+<div class="c-survey-banner">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ### Create a calculation
 
 --- task ---
