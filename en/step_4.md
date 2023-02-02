@@ -177,7 +177,6 @@ line_number_start: 14
 line_highlights: 18
 ---
 # Function definitions
-
 def roll_dice():      
     roll = randint(1, 6) # Generate a random number between 1 and 6    
     print('You rolled', roll) # Print the value of the roll variable     
