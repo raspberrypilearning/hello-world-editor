@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## You will make
 
 Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 😃.
@@ -13,10 +17,6 @@ You will:
 + Use **functions** to organise your code
 
 --- no-print ---
-
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
-</div>
 
 ### Play ▶️
 

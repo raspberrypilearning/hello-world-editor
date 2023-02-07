@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Say hello 🌍🌎🌏
 
 <div style="display: flex; flex-wrap: wrap">
@@ -10,10 +14,6 @@ In Python `print` is like 'say' in Scratch, and `=` is used like 'set' in Scratc
 <div>
 ![The text output area showing the two printed lines of text and emoji.](images/say-hello.png){:width="350px"}
 </div>
-</div>
-
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
 </div>
 
 --- task ---
