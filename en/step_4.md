@@ -25,10 +25,6 @@ In Python:
 A <span style="color: #0faeb0">**function**</span> can be created in Python to perform an action. You have already used a function called `print()` to display messages on the screen.
 </p>
 
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
-</div>
-
 ### Define your function
 
 --- task ---
