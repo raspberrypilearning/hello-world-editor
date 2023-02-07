@@ -16,10 +16,6 @@ In Python `print` is like 'say' in Scratch, and `=` is used like 'set' in Scratc
 </div>
 </div>
 
-<div class="c-survey-banner">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313">Take our survey</a> to help make our Code Editor better!
-</div>
-
 --- task ---
 
 Open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
