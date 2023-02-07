@@ -1,3 +1,7 @@
+<div class="c-survey-banner">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" style="width:100%">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Say hello 🌍🌎🌏
 
 <div style="display: flex; flex-wrap: wrap">
