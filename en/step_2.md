@@ -24,6 +24,24 @@ Open the [starter project](https://editor.raspberrypi.org/projects/hello-world-s
 
 --- /task ---
 
+--- collapse ---
+
+---
+title: Working on a Raspberry Pi?
+---
+
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Restart Chromium and you should see the colour emojis.
+
+--- /collapse ---
+
 ### Print hello
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
