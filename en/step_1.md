@@ -20,7 +20,19 @@ In Python `print` is like 'say' in Scratch, and `=` is used like 'set' in Scratc
 
 Open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
 
+<<<<<<< HEAD
 ![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter-project.png){:width="640px"}
+=======
+  When you are asked, type in a number and tap <kbd>Enter</kbd>. 
+
+Can you see how your answers are used?
+</div>
+<div class="trinket">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+</div>
+>>>>>>> master
 
 --- /task ---
 
