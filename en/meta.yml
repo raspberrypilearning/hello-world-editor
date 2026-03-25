@@ -3,7 +3,7 @@ title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Write an interactive Python project that uses emoji
 version: 4
-listed: false
+listed: true
 copyedit: false
 landing: true
 last_tested: "2021-10-06"
