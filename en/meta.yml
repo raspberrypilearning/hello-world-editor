@@ -5,9 +5,9 @@ description: Write an interactive Python project that uses emoji
 version: 4
 listed: false
 copyedit: false
+landing: true
 last_tested: "2021-10-06"
 steps:
-  - title: You will make
   - title: Say hello 🌍🌎🌏
   - title: Calculations and dates
     completion:
