@@ -2,194 +2,72 @@
   <a class="c-survey-banner__link" href="https://form.raspberrypi.org/4873313" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## Say hello 🌍🌎🌏
+
+## Calculations and dates
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make your program print Hello world.
-  
-In Python `print` is like 'say' in Scratch, and `=` is used like 'set' in Scratch to give a value to a **variable**.
-  
+Get Python to do a calculation for you and also get the current time and date. 
 </div>
 <div>
-![The text output area showing the two printed lines of text and emoji.](images/say-hello.png){:width="350px"}
+
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums-dates.png){:width="350px"}
+
 </div>
 </div>
 
---- task ---
+In Python you can use operators to do calculations:
 
-Open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"}. The Code Editor will open in another browser tab.
+<style>
+    table {
+    border-collapse: collapse;
+    width: 60%;
+    }
 
-![The code editor with project starter code on the left. On the right is the blank text output area.](images/starter-project.png){:width="640px"}
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
 
---- /task ---
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+</style>
 
---- collapse ---
+<div>
+<table >
+  <tr>
+    <td>+</td>
+    <td>add</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>subtract</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>multiply</td>
+  </tr>
+  <tr>
+    <td>/</td>
+    <td>divide</td>
+  </tr>
+  <tr>
+    <td>**</td>
+    <td>to the power</td>
+  </tr>
+</table>
+</div>
+<br/>
 
----
-title: Working on a Raspberry Pi?
----
-
-If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
-
-Open a terminal and then type:
-
-```bash
-sudo apt install fonts-noto-color-emoji
-```
-
-Restart Chromium and you should see the colour emojis.
-
---- /collapse ---
-
-### Print hello
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
-</p>
-
---- task ---
-
-**Find:** the `# Put code to run below here` comment.
-
-Click below that line. 
-
-The flashing `|` is the cursor and shows where you will type.
-
---- /task ---
-
---- task ---
-
-Type the code to `print()` Hello to the screen.
-
-**Tip:** When you type an opening bracket `(` or opening `'` the code editor will automatically add closing bracket `)` or `'`:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 16
-line_highlights: 17
----
-# Put code to run under here    
-print('Hello')
-
---- /code ---
-
---- collapse ---
----
-title: Typing special characters on a UK or US keyboard
----
-
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>.
-The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key.
-The comma `,` is next to the <kbd>M</kbd>.
-
---- /collapse ---
-
---- /task ---
+### Create a calculation
 
 --- task ---
 
-**Test:** Click on the **Run** button at the bottom of the code editor to run your code. The output will appear on the right:
+Add another two `print()` lines to your code with a calculation for Python to work out:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run-hello.png)
-
---- /task ---
-
---- task ---
-
-**Debug:** If you get an error then check your code really carefully. 
-
-![The code editor with an uppercase P in Print and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/NameError.png)
-
-+ **Fix:** Check that you have a lowercase `p` in `print`
-+ **Fix:** Check that you have single quotes `''` around `'Hello'`
-
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 10 in main.py.](images/SyntaxError.png)
-
-+ **Fix:** Check that you have used brackets around `('Hello')`
-
---- /task ---
-
-## Print 🌍🌎🌏
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**variable**</span> is used to store values that you want to use later in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
-</p>
-
---- task ---
-
-**Find:** the comment `# Emoji variables to use in your project`.
-
-We have included some variables that store emojis.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 4
-line_highlights: 5-6
----
-
-# Emoji variables to use in your project
-world = '🌍🌎🌏'
-python = 'Python 🐍'
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Add** a comma `,` and the variable name `world` into your `print('Hello')` line of code. 
-
-This will `print()` the string (text) `Hello` and the 'world' variable (three world emojis 🌍🌎🌏).
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 16
-line_highlights: 17
----
-
-# Put code to run under here    
-print('Hello', world) 
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code to see the result:
-
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run-hello-world.png)
-
-**Tip:** Emoji can look different on different computers, so yours might not look exactly the same.
-
---- collapse ---
----
-title: I have a syntax error
----
-
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `world` correctly.
-
-This example is missing the comma `,`. It's small but very important!
-
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma-error.png)
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Add** another line to your code to `print()` more text and emojis:
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
 --- code ---
 ---
@@ -197,48 +75,130 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 17
-line_highlights: 18
+line_highlights: 19-20
 ---
-print('Hello', world)    
-print('Welcome to', python) 
+print('Hello', world)   
+print('Welcome to', python)   
+print(python, 'is very good at maths!')   
+print(230 * 5782 ** 2 / 23781) # Print the result of the sum    
 
 --- /code ---
 
-**Tip:** The line you need to type is highlighted above in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **Run**. 
+**Test:** Run your code. Did Python calculate the answer correctly? Only joking 😆! Python is great at calculations so you don't need to work it out.
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run-multiple.png)
-
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Debug:**
 
 --- collapse ---
 ---
 title: I have a syntax error
 ---
 
-Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
 
 --- /collapse ---
 
 --- /task ---
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 100 trillion digits. That answer is so long that it would take hundreds of thousands of years just to say it! 
+</p>
+
 --- task ---
 
-**Save** your project by clicking on the 'Save' button. 
-
-![The Code Editor with the Save button shown.](images/editor-save.png)
-
-If you are logged in then your project will be saved to 'My Projects' in your Raspberry Pi Foundation account. 
-
-If you don't have an account you can click 'Download' to save your project to your computer. This will create a '.zip' file containing the code from your project.
-
-**Tip:** If you accidentally close the editor then you can open the [starter project](https://editor.raspberrypi.org/projects/hello-world-starter){:target="_blank"} to get back to your code.
+Try changing the code so that Python has to do an even more difficult calculation! Can you crash the editor?
 
 --- /task ---
 
+--- task ---
 
+**Test:** Run your code and see Python answer your calculation.
+
+**Debug:** 
+
+--- collapse ---
+---
+title: I have a syntax error
+---
+
+Make sure your calculation has round brackets around it `(2 * 45)`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+
+--- /collapse ---
+
+--- /task ---
+
+### Print the current time and date
+
+The line `from datetime import datetime` at the top of your code imports a library with helpful functions for getting the current date and time.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+</p>
+
+--- task ---
+
+**Find:** The `import` lines at the top of your code. They tell Python that you are going to use code you didn't write.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-2
+---
+
+from datetime import datetime
+from random import randint
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Add another line to your code to `print` some more text and the emojis for `calendar` and `clock`.
+
+Get the current date and time by using `datetime.now()`.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 21
+---
+
+print(python, 'is very good at maths!')     
+print(230 * 5782 ** 2 / 23781) # Print the result of the sum     
+print('The 📅 🕒 is', datetime.now()) # Print with emojis    
+ 
+--- /code ---
+
+**Tip:** To add emojis, find the comment `# Emojis to copy and paste into your code` and copy the emojis you want to use then paste them into your code. 
+
+[[[choose-an-emoji]]]
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code a couple of times to see the date and time update.
+
+**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+
+--- /task ---
+
+--- task ---
+
+If you are logged in to your Raspberry Pi Foundation account, and have already clicked 'Save', the Code Editor will automatically save your project when you make changes. You can also click the 'Save' button at any time. 
+
+**Tip:** If you get logged out of your account then your code will still be saved if you have clicked 'Save'.
+
+--- /task ---
